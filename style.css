@@ -1,0 +1,376 @@
+/* Plans */
+/* Container chính */
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(to right, #00174d, #000d26);
+    /* Gradient background */
+}
+
+/* Mỗi card */
+.plan {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Phần tiêu đề */
+.plan-header {
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+/* Màu sắc header */
+.best-protection {
+    background: #6ac1ff;
+}
+
+.best-vpn {
+    background: #6af9c1;
+}
+
+.best-performance {
+    background: #91f7b0;
+}
+
+/* Nội dung */
+.plan-content {
+    padding: 20px;
+}
+
+.plan-content img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.score {
+    color: #888;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Danh sách tính năng */
+.plan-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.plan-content li {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+/* Footer */
+.plan-footer {
+    padding: 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+/* Nút */
+.plan-button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.plan-button:hover {
+    background: darkblue;
+}
+
+/* Link nhỏ phía dưới */
+.plan-link {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        max-width: 90%;
+    }
+}
+
+/* Content chính */
+/* Container chính */
+.antivirus-summary {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Tiêu đề */
+.antivirus-summary h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Card chung */
+.antivirus-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Card được nổi bật */
+.featured {
+    border: 2px solid #009900;
+    background: #f5fff5;
+    position: relative;
+}
+
+/* Header trong card */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-header img {
+    width: 50px;
+    height: auto;
+}
+
+.card-header h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-header a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-header a:hover {
+    text-decoration: underline;
+}
+
+/* Editor's Choice badge */
+.editors-choice {
+    background: #009900;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Phần chữ nổi bật */
+.highlighted-text {
+    color: #009900;
+    font-weight: bold;
+}
+
+/* Link phần thêm */
+.more-antivirus {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.more-antivirus a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.more-antivirus a:hover {
+    text-decoration: underline;
+}
+
+/* Phần quiz */
+.quiz-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quiz-section h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Container chính */
+.antivirus-review {
+    max-width: 850px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Tiêu đề chính */
+.antivirus-review h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.antivirus-review h2 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.antivirus-review h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Card chứa nội dung */
+.review-card {
+    display: flex;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+/* Phần ảnh */
+.review-left img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Phần thông tin */
+.review-right {
+    flex: 1;
+}
+
+/* Badge nổi bật */
+.badges {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge.highlight {
+    background: #ffd700;
+}
+
+/* Danh sách tính năng */
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    background: #eaf3ff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Biểu tượng OS */
+.icons {
+    font-size: 18px;
+}
+
+/* Nút CTA */
+.visit-button {
+    display: inline-block;
+    background: #ff8800;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.visit-button:hover {
+    background: #e67700;
+}
+
+/* Link website */
+.website-link {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.additional-features {
+    max-width: 850px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.additional-features ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 15px 0;
+}
+
+.additional-features ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.additional-features a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.additional-features a:hover {
+    text-decoration: underline;
+}
+
+/* Norton Safe Web Alert */
+.norton-safe-web {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.norton-banner {
+    background: #2c2c5e;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.norton-safe-web img {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+}
