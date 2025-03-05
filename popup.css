@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    height: 200vh;
+    /* Giữ nội dung dài để có thể cuộn */
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Lớp mờ nền */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Luôn hiển thị trên top */
+}
+
+.popup-content {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.help-desk {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.phone {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.phone a {
+    text-decoration: none;
+    color: blue;
+}
+
+.issue {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.small-text {
+    font-size: 12px;
+    color: gray;
+}
+
+.call-button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.call-button:hover {
+    background: #333;
+}
